@@ -1,0 +1,41 @@
+body{
+	font-family: 'Special Elite', Verdana, Geneva, sans-serif;
+	color:#444444;
+    background-color: blanchedalmond;
+}
+
+h2{
+	font-family: 'Sigmar One', Verdana, Geneva, sans-serif;
+	color: blueviolet;
+}
+
+
+
+#currentWord, #guessesLeft, #lettersGuessed, #wins, #losses{
+	font-size: 24px;
+	background-color: beige;
+}
+
+.left{
+	background-color: whitesmoke;
+	border-radius: 6px;
+}
+
+.right{
+	padding-right: 0;
+}
+
+.row{
+	border-radius: 6px;
+}
+
+
+.row.match-my-cols {
+    overflow: hidden; 
+}
+
+.row.match-my-cols [class*="col-"]{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+
+}
